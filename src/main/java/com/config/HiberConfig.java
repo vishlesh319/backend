@@ -99,6 +99,7 @@ private Properties getHiber()
 			return new CartDAOImpl(sessionFactory);
 			
 		}
+	    
 		@Autowired
 		@Bean(name = "addressDAO")
 		public AddressDAO getAddressDAO(SessionFactory sessionFactory)
